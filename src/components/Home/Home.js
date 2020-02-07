@@ -35,7 +35,7 @@ class Home extends Component {
       .then(result => result.json())
       .then(result => {
         this.setState({
-          movies: [...this.state.moveis]
+          movies: [...this.state.movies]
         });
       });
   };

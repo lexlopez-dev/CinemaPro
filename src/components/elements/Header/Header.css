@@ -1,14 +1,15 @@
 .rmdb-header {
   width: 100%;
   height: auto;
-  background: #1c1c1c;
+  background: rgba(0, 0, 0, 0.85);
   padding: 0 20px;
   box-sizing: border-box;
+  position: fixed;
 }
 
 .rmdb-header-content {
   max-width: 1280px;
-  min-height: 100px;
+  min-height: 50px;
   height: auto;
   padding: 2px 0px;
   margin: 0 auto;
@@ -17,13 +18,13 @@
 }
 
 .rmdb-logo {
-  width: 100px;
+  width: 80px;
   margin-top: 0px;
   float: left;
 }
 
 .rmdb-tmdb-logo {
-  width: 100px;
+  width: 80px;
   margin-top: 25px;
   float: right;
 }

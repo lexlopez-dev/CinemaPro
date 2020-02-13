@@ -1,6 +1,6 @@
 .rmdb-grid h1 {
-  font-family: 'Abel', sans-serif;
-  font-size:42px;
+  font-family: "Abel", sans-serif;
+  font-size: 42px;
 }
 
 .rmdb-grid-content {
@@ -16,25 +16,25 @@
 
 @keyframes animateGrid {
   from {
-      opacity:0;
+    opacity: 0;
   }
   to {
-      opacity:1;
+    opacity: 1;
   }
 }
 
 @media screen and (max-width: 768px) {
   .rmdb-grid-content {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .rmdb-grid h1 {
-    font-size:22px;
+    font-size: 22px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
   .rmdb-grid-content {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }

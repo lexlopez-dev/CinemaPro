@@ -14,6 +14,7 @@ const HeroImage = props => {
     >
       <div className="rmdb-heroimage-content">
         <div className="rmdb-heroimage-text">
+          <h3>Latest</h3>
           <h1>{props.title}</h1>
           <p>{props.text}</p>
         </div>

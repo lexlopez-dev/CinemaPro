@@ -76,6 +76,7 @@ class Movie extends Component {
                 <Actor key={i} actor={element} />
               ))}
             </FourColGrid>
+            <br></br>
           </div>
         ) : null}
         {!this.state.actors && !this.state.loading ? (

@@ -2,7 +2,7 @@
   width: 100%;
   height: 70px;
   background: #1c1c1c;
-  position: relative;
+  position: unset;
   padding: 15px 10px 0px 10px;
   box-sizing: border-box;
   color: #fff;
@@ -15,13 +15,11 @@
   background: #353535;
   margin: 0 auto;
   border-radius: 60px;
-  position: relative;
   color: #fff;
 }
 
 .rmdb-fa-search {
-  position: absolute;
-  left: 15px;
+  padding-left: 25px;
   top: 3px;
   color: #fff;
 }
@@ -29,7 +27,6 @@
 .rmdb-searchbar-input {
   font-family: "Abel", sans-serif;
   font-size: 28px;
-  position: relative;
   margin: 8px 0 0 60px;
   border: 0;
   background: transparent;
@@ -42,9 +39,9 @@
   outline: none;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 770px) {
   .rmdb-searchbar-input {
-    margin: 8px 0 0 60px;
+    margin: 20px 0 0 60px;
     font-size: 28px;
     color: #fff;
   }

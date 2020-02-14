@@ -136,6 +136,7 @@ class Home extends Component {
           {this.state.currentPage <= this.state.totalPages &&
             !this.state.loading}{" "}
           ? <LoadMoreBtn text="Load More" onClick={this.loadMoreItems} />
+          <br></br>
         </div>
       </div>
     );

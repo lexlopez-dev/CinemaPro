@@ -6,6 +6,10 @@
   border-radius: 20px;
 }
 
+.rmdb-moviethumb img:hover {
+  filter: brightness(130%);
+}
+
 .clickable {
   cursor: pointer;
 }

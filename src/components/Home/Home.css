@@ -1,6 +1,6 @@
 .rmdb-home {
-  margin-bottom: 100px;
-  background-color: rgb(1, 1, 39);
+  background: linear-gradient(165deg, #251431 0%, #161130 22%);
+  height: fit-content;
 }
 
 .rmdb-home-grid {

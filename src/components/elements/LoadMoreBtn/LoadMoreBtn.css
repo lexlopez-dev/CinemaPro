@@ -1,6 +1,7 @@
 .rmdb-loadmorebtn {
-  background: #16d47b;
-  width: 100%;
+  background: #7a7a7a;
+  width: 40%;
+  margin: auto;
   min-height: 50px;
   text-align: center;
   color: #fff;
@@ -10,9 +11,10 @@
 }
 
 .rmdb-loadmorebtn p {
-  font-family: 'Abel', sans-serif;
-  font-size:42px;
-  padding: 20px;
+  font-family: "Abel", sans-serif;
+  font-size: 42px;
+  padding: 5px;
+  margin: 0px 0px;
 }
 
 .rmdb-loadmorebtn:hover {
